@@ -1,0 +1,15 @@
+{
+    "people": [{
+        "firstName": "Aaron",
+        "lastName": "Powell",
+        "employer": "Readify"
+    }, {
+        "firstName": "Jake",
+        "lastName": "Ginnivan",
+        "employer": "Readify"
+    }, {
+        "firstName": "Jakob",
+        "lastName": "Bradford",
+        "employer": "NDC Conferences"
+    }]
+}
