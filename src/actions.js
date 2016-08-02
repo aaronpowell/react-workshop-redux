@@ -11,5 +11,5 @@ function loadSimulator(fn, timeout = 5000) {
 }
 
 export default {
-    loadPeople: () => ({ type: types.LOAD_PEOPLE, payload: loadSimulator(() => fetch('/people.json').then((response) => response.json())) })
+    loadPeople: () => undefined
 };

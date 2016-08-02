@@ -30,8 +30,5 @@ class PersonListComponent extends Component {
 }
 
 const mapStateToProps = ({ people, loading }) => ({ people, loading });
-const mapDispatchToProps = (dispatch) => ({
-    loadPeople: () => dispatch(actions.loadPeople())
-});
 
-export default connect(mapStateToProps, mapDispatchToProps)(PersonListComponent);
+export default connect(mapStateToProps)(PersonListComponent);
